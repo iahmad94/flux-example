@@ -16,7 +16,7 @@ data:
             }
           ]
         },
-        "description": "Dashboard to get an overview of one server ismail was here,gavin is now looking",
+        "description": "Dashboard to get an overview of one server",
         "editable": true,
         "gnetId": 22,
         "graphTooltip": 0,
@@ -878,4 +878,3 @@ metadata:
   namespace: monitoring
   labels:
     grafana_dashboard: "1"
-
