@@ -3,10 +3,10 @@ data:
   datasources.yaml: |-
     datasources:
       - name: prometheus
-      type: prometheus
-      url: http://kube-prometheus.monitoring:9090
-      access: proxy
-      isDefault: true
+        type: prometheus
+        url: http://kube-prometheus.monitoring:9090
+        access: proxy
+        isDefault: true
 
 kind: ConfigMap
 metadata:
