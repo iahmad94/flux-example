@@ -1,16 +1,17 @@
 apiVersion: v1
 data:
   datasources.yaml: |-
+    apiVersion: 1
     datasources:
-      - name: prometheus
-        type: prometheus
-        url: http://kube-prometheus.monitoring:9090
-        access: proxy
-        isDefault: true
+    - name: prometheus
+      type: prometheus
+      url: http://kube-prometheus.monitoring:9090
+      access: proxy
+      isDefault: true
 
 kind: ConfigMap
 metadata:
   name: prometheus-datasource
   labels:
-    grafana_datasource: "1"
+    grafana_datasource: 1
 
